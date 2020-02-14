@@ -1,2 +1,3 @@
-# vcf_filtering
-BASH scripts to filter VCF files for missing data in both SNP's and individuals (taxa).
+# Filtering VCF files by either SNP's or individuals (or taxa, species) by missing data.
+
+These are essentially wrappers for vcftools, but maybe useful.
