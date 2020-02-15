@@ -65,3 +65,5 @@ if [[ $1 =~ $match_gz ]]; then
 elif ! [[ $1 =~ $match_gz ]]; then
     vcftools --vcf $1 --max-missing $2 --out $3 --recode --recode-INFO-all
 fi
+
+printf "Finished!"
